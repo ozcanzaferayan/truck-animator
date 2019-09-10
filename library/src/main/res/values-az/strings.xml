@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Yük maşını Animasiyası</string>
+    <string name="order_completed">Sifariş Tamamlandı</string>
+    <string name="complete_order">Sifariş ver</string>
+</resources>

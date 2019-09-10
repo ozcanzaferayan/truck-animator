@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">卡车动画</string>
+    <string name="order_completed">订单已完成</string>
+    <string name="complete_order">立即订购</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Animación de Camiones</string>
+    <string name="order_completed">Orden Completado</string>
+    <string name="complete_order">Orden Completa</string>
+</resources>

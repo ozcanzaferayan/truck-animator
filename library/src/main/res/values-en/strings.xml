@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TruckAnimator</string>
+    <string name="order_completed">Order Completed</string>
+    <string name="complete_order">Complete Order</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kamyon Animasyonu</string>
+    <string name="order_completed">Sipariş Tamamlandı</string>
+    <string name="complete_order">Sipariş Ver</string>
+</resources>
