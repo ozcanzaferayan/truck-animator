@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/button"
+        android:layout_width="375dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/road"
+            android:layout_width="2000dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:translationX="-0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+
+            <View
+                android:layout_width="@dimen/roadSignWidth"
+                android:layout_height="@dimen/roadSignHeight"
+                android:layout_marginStart="@dimen/roadSignSpacing"
+                android:background="@color/road" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/box"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/box"
+            android:translationX="-55dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/truck"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:translationX="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <View
+                android:id="@+id/topDoor"
+                android:layout_width="3dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="35dp"
+                android:background="#ccc"
+                android:transformPivotX="0dp" />
+
+
+            <View
+                android:id="@+id/bottomDoor"
+                android:layout_width="3dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="35dp"
+                android:background="#ccc"
+                android:transformPivotY="30dp" />
+
+            <FrameLayout
+                android:id="@+id/headlights"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:alpha="0">
+
+                <ImageView
+                    android:id="@+id/topHeadlight"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-4dp"
+                    android:src="@drawable/headlight" />
+
+                <ImageView
+                    android:id="@+id/bottomHeadlight"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="29dp"
+                    android:src="@drawable/headlight" />
+
+            </FrameLayout>
+
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:src="@drawable/truck" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/orderCompleted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:drawableEnd="@drawable/ic_check_black_24dp"
+            android:drawablePadding="10dp"
+            android:text="Order Completed"
+            android:textColor="@color/road"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/completeOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:drawablePadding="10dp"
+            android:text="Complete Order"
+            android:textColor="@color/road"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
